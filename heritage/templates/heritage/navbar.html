@@ -21,25 +21,25 @@
                     <!-- Links -->
                     <ul class="navbar-nav mr-auto smooth-scroll">
                         <li class="nav-item">
-                            <a class="nav-link" href="#intro">Home</a>
+                            <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#best-features">About Us</a>
+                            <a class="nav-link" href="{% url 'about' %}">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#examples">Curriculum</a>
+                            <a class="nav-link" href="{% url 'curriculum' %}">Curriculum</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#gallery">News/Events</a>
+                            <a class="nav-link" href="{% url 'news' %}">News/Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Awwards</a>
+                            <a class="nav-link" href="{% url 'awwards' %}">Awwards</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Give</a>
+                            <a class="nav-link" href="{% url 'give' %}">Give</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="{% url 'contact' %}">Contact</a>
                         </li>
                     </ul>
                     <!-- Links -->

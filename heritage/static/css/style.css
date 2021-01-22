@@ -26,3 +26,26 @@ header,
       background-color: #24355C;
     }
   }
+
+
+#img1{
+    position: relative;
+}
+
+.overlay{
+    width: 92%;
+    height: 0;
+    background: rgba(0, 0, 0, 0.827);
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    left: 4%;
+    color: white;
+    transition: 1s ease;
+    opacity: 0;
+}
+
+#img1:hover .overlay{
+    height: 30%;
+    opacity: 1;
+}
